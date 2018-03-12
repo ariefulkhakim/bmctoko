@@ -86,3 +86,18 @@ img {
     font-size: 14px;
     color: red;
 }
+
+@media only screen and (max-width: 767px) {
+    .produk-item {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .produk-grid {
+        margin-top: 10px;
+    }
+
+    .produk-grid:nth-of-type(2n+1) {
+        padding-right: 5px;
+    }
+}
